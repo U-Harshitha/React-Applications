@@ -9,7 +9,7 @@ import { Home } from './_root/pages';
 const App = () => {
   return (
     <main className='flex h-screen'>
-        <h1>hi</h1>
+        <h1>hiii</h1>
         <Routes>
         {/* public routes */}
         <Route element={<AuthLayout />}>

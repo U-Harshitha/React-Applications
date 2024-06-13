@@ -1,7 +1,12 @@
-//import React from 'react'
-
-export const AuthLayout = () => {
+import {Outlet, Navigate} from 'react-router-dom';
+const AuthLayout = () => {
+  const isAuthenticated = false;
   return (
+    <>
+    {isAuthenticated}?(
     <div>AuthLayout</div>
+    </>
   )
 }
+
+export default AuthLayout
