@@ -14,6 +14,7 @@ function App() {
       
       <Button>Click me</Button>
       <Dashboard></Dashboard>
+      <Component></Component>
 
     </>
   )
